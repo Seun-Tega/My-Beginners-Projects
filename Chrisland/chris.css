@@ -1,0 +1,203 @@
+/* .back{
+    background-image: url(mainproject-images/1588074732.jpg);
+    height: 600px;
+    width: 100%;
+    background-size: cover;
+    } */
+    /* .container img{
+        width: 100%;
+background-size: cover;
+    } */
+   .dropdown-content {display: none;
+      position: absolute;
+      background-color:white;
+      min-width: 200px;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+      z-index: 1;
+      }
+      .color a{
+        color: black;
+      }
+
+
+      .dropdown:hover .dropdown-content{
+        display: block;
+      }
+      .nav-link a{color: black;}
+      .drop a{
+        color:red;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+        text-align: left;
+      }
+      .drop{
+        text-align: left;
+      }
+      
+     /* .nav-links li{
+        font-size: 18px;
+        font-weight: 500;
+        color: white;
+        padding: 10px 15px; 
+        transition: all 0.3s ease;
+      } */
+      
+      /* nav .nav_links a:hover{
+        color: #979fa0;
+      } */
+    
+    .nav{
+        width: 100%    }
+
+ .dropdown a{
+            color: white;
+            text-align: center;
+        } 
+.drop a{
+  color: black;
+}
+.sticky{position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    padding: 5px;;
+    width: 100%;
+}
+.container image{width: 100%;
+    color: white;}
+
+.div1{text-align: center;
+        margin: 100px;
+        color: white;
+    }
+    .div1 h1{
+      font-size: 80px;
+    }
+
+    @media screen and (max-width:1066px){
+      .div1{text-align: center;
+        margin: 100px;
+        color: white;
+    }
+    .div1 h1{
+      font-size: 50px;
+    }
+
+    }
+
+    @media screen and (max-width:746px){
+      .div1{text-align: center;
+        margin: 100px;
+        color: white;
+    }
+    .div1 h1{
+      font-size: 3
+      0px;
+    }
+
+    } 
+
+.head{font-size: 80px;
+ }
+ .P1{
+    background-color: white;
+   
+    padding: 10px;
+   }
+ .P1 a{
+    text-decoration: none;
+    color: black;
+    text-align: center;
+ }
+.h21{
+color: white;
+ /* font-size: 35px; */
+/* font-weight: 100px; */
+padding: 45px;}
+.pimg{
+    width: 350px;
+padding:10px ;
+}
+.P2{text-align: center;
+    margin: 50px;
+}
+.h22{text-align: center;
+    color: white;
+    font-size: 20px;
+    padding: 50px;}
+.col1{
+ 
+  margin: 30px;
+  text-align: justify;
+  color:white  ;
+  padding: 30px;
+}
+
+.col2{
+ 
+  margin-top: 150px;
+  margin-bottom: 150px;
+  text-align: justify;
+  color:white  ;
+  padding: 30px;
+}
+
+.col3{
+ 
+  margin-top: 100px;
+  margin-bottom: 150px;
+  text-align: justify;
+  color:white  ;
+  padding: 30px;
+}
+
+.card{
+  margin: 10px;
+}
+.card img{
+  height: 250px;
+}
+.foot a{
+  color:rgba(247, 247, 19, 0.904);
+  text-decoration: none;
+  padding: 30px;
+}
+
+
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+.counter-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  margin: 30px 50px;
+}
+
+.counter {
+  font-size: 60px;
+  margin-top: 10px;
+}
+
+@media (max-width: 580px) {
+  body {
+    flex-direction: column;
+  }
+
+}
+
+nav{
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  padding: 20px;
+}
+nav.sticky{
+  background-color: white;
+}

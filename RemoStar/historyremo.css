@@ -1,0 +1,47 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+.Tega7{
+   background-image: url(mainproject-images/top3-scaled.jpg); 
+   height: 500px;
+   width: 100%;
+   background-size: cover;
+ 
+}
+.his_1{color: white;
+    padding-left: 60px;
+    letter-spacing: 1;
+    font-weight: 450px;
+}
+.his_4{
+    color: red;
+    padding-left: 60px;
+    letter-spacing: 1;
+    font-size: 70px;
+}
+
+.container2{
+    background-color: rgb(11, 11, 80);
+
+}
+.his_2{
+    color: white;
+    text-align: justify;
+    margin: 100px;
+    margin-top: 15%;
+    font-size: large;
+    margin-left: 0px;
+    font-weight: bolder;
+}
+.his_3{
+    color: white;
+    text-align: justify;
+    padding: 30px;
+    vertical-align: baseline;
+    letter-spacing: 1px;
+
+}

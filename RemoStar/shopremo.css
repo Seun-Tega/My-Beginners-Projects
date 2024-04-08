@@ -1,0 +1,37 @@
+.containershop{
+    background-color: rgb(6, 6, 78);
+}
+.shopcol1{color: rgb(139, 134, 134);
+  padding: 50px;
+  float: left;
+  text-align: left;
+
+}
+.shopcol2{
+    color: white;
+    background-color: black;
+    margin-top: 40px;
+    width: 200px;
+    float: right;
+    text-align: left;
+    padding: 10px;
+}
+.card1{margin: 20px;
+}
+.card2{margin: 20px;
+
+}
+.card3{margin: 20px;
+
+}
+.imageshop img{
+   width: 15px; 
+   /* float: left; */
+   /* margin-top: 40px; */
+}
+.imageshop2{
+float: left;
+/* margin-top:80px ; */
+color: rgb(230, 180, 180);
+
+}

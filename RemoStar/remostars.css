@@ -1,0 +1,267 @@
+ * {
+    font-family: Oswald;   
+}
+
+.social{
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    letter-spacing: 20px;
+}
+a:hover{
+    color: grey;
+    background-color: transparent;
+    transform: scale(1.2);
+}
+.Par2 :hover{transform: scale(1.2);}
+
+.span_show{background-color: rgb(54, 50, 50);
+padding: 3px;
+font-size: 20px;
+width: 200px;
+text-align: center;
+}
+.span_show a{
+    text-decoration: none;
+color: white;}
+
+.main-container{
+    background-color: rgb(4, 4, 45);
+
+}
+.div_row2{
+    display: flex;
+    /* margin: 20px; */
+}
+
+.image_div2{margin: 60px;
+    width: 80%;
+    margin-left: 20%;
+}
+.divin_2{
+    margin: 70px;
+    text-align: justify;
+}
+
+.image_div3{
+padding-right: 70%;
+margin-top: 60px;
+}
+
+.Tega1{
+    color: rgb(179, 179, 16);
+    font-size: x-large;
+    letter-spacing: 5px;
+    padding-top:40px ;
+
+}
+
+    .Tega2{
+    color: red;
+    font-size:50px;
+    letter-spacing: 5px;
+    font-weight: 100px;
+    font-family: Oswald;
+ }  
+ 
+ .Tega3{
+    background-image: url(mainproject-images/pics\ 10.jpg);
+    height: 600px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 200px;
+
+    /* border: 1px solid ; */
+
+ }
+ .Tega4{
+    background-image: url(mainproject-images/pics\ 11.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 200px;
+    width: 500px;
+ }
+
+
+ .Par1{ 
+    color: white;
+    font-size: large;
+    /* letter-spacing: 5px; */
+ }
+
+ .Par2{
+    background-color: red;
+    padding: 15px;
+    width: 150px;
+    text-align: center;
+ }
+ .Par2 a{text-decoration: none;
+color: white;}
+
+
+.div_row3{
+    text-align: center;
+
+}
+.div_row4{
+    text-align: center;
+
+}
+
+.div_row5{
+    text-align: center;
+}
+
+.div_row4img{
+width: 80%;
+margin: 70px;
+text-align: center;
+margin-bottom: 0px;}
+
+.div_x{
+    text-align: center;
+    color: red;
+    margin: 10px;
+}
+.div_row5{text-align: center;}
+
+.div_row5img{
+    width: 80%;
+    margin: 70px;
+    text-align: center;
+     height: 400px;
+    margin-bottom: 0px;
+margin-top: 0px;}
+
+.div_ab1{
+    position: absolute;
+    top: 0%; 
+    color: black; 
+    text-align: center;
+    margin-left: 40%;
+    padding: 20px;
+    font-weight: 300px;
+    font-family: Oswald;
+}
+
+.div_ab2{
+    position: absolute;
+    top: 5%;
+    color: rgb(65, 62, 62); 
+    text-align: center;
+    margin-left: 35%;
+    padding: 30px;
+    font-family: Oswald;
+}
+.div_ab3{
+    position: absolute;
+    top: 30%;width: 100%;
+    text-align: center;
+    color:black;
+    font-size: 25px;
+    font-weight: 300px;
+    font-family: Oswald;
+}
+.div_ab4{
+    position: absolute;
+    top: 25%;
+    color:rgb(4, 4, 45) ;
+    right: 220px;
+    font-size: 60px;
+    line-height: 60px;
+    letter-spacing: 1;
+    font-family: Oswald;
+    font-weight: bolder;
+}
+.div_ab5{
+    position: absolute;
+    top: 25%;
+    color:rgb(4, 4, 45) ;
+    left: 220px;
+    font-size: 60px;
+    line-height: 60px;
+    letter-spacing: 1;
+    font-family: Oswald;
+    font-weight: bolder;
+}
+
+.div_ab6{
+    position: absolute;
+    bottom: 0%;
+    text-align: center;
+    background: red;
+    padding: 10px;
+    margin-bottom: 30px;
+    margin-left: 45%;
+    font-family: Oswald;
+}
+.div_ab6 a{
+    text-decoration: none;
+    color: white;}
+
+    .div_row6{
+        background-color: white;
+
+    }
+    .col1{
+        width: 150px;
+        /* background-color: whitesmoke; */
+        margin: 40px;
+        padding: 10px;
+
+    }
+    .col_3{
+        color: rgb(81, 75, 75);
+
+    }
+    .col_4{text-align: justify;
+        color:white;
+        font-weight: 450px;
+    }
+    .col_4 a{
+        text-decoration: none; 
+        color: white;}
+    .col_3 a{
+        text-decoration: none;
+        color: rgb(69, 63, 63);}
+
+     .footer{
+    background-color: black;
+    color: white;
+     }  
+     .h4red{
+    color: red;
+    letter-spacing: 1;
+     } 
+     .ptega{
+        color: rgb(79, 74, 74);
+     }
+     .ptega1{
+        text-align: center;
+        margin: 10px;
+     }
+     .h5tega{
+        text-align: justify;
+        color:white;
+     }
+
+     .h5tega a{text-decoration: none;
+        color: white;
+
+
+     }
+     .h3spon{text-align: center;
+        padding: 40px;
+        letter-spacing: 2px;  
+     }
+     .col_7 a{text-align: justify;
+        text-decoration: none;
+        color: rgb(76, 72, 72)
+
+     }
+     .li{font-family: Oswald;
+    font-weight: bold;}
+     
+
+
+
