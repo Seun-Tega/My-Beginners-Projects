@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+id<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="remostars.css">
+        <link rel="stylesheet" href="titsolutions.css">
+       <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    </head>
+    <body>
+      <nav class="navbar navbar-dark bg-dark fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><img src="mainproject-images/titsolution.jpg" alt="" width="40px"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title " id="offcanvasDarkNavbarLabel">Dark offcanvas</h5>
+              <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3 uli">
+                <li class="nav-item nav">
+                  <a class="nav-link active" aria-current="page" href="titsolutions.html">Home</a>
+                </li>
+                <li class="nav-item nav">
+                  <a class="nav-link active" href="bmical.html">BMI CALCULATOR </a>
+                </li>
+                <li class="nav-item nav">
+                    <a class="nav-link active" aria-current="page" href="simplecal.html">SIMPLE CALCULATOR</a>
+                  </li>
+                  <li class="nav-item nav">
+                    <a class="nav-link active" href="remostars.html">REMO STAR</a>
+                  </li>
+                  <li class="nav-item nav">
+                    <a class="nav-link active" href="chris.html">CHRISLAND SCHOOLS</a>
+                  </li>
+                  <li class="nav-item nav">
+                    <a class="nav-link active" href="myform.html">FORM</a>
+                  </li>
+              </ul>
+              <p class="ptega1">
+                <a href="https://web.facebook.com/RemoStarsSC/?_rdc=1&_rdr" target="_blank"><i class="bi bi-facebook social"></i></a>
+                <a href="https://twitter.com/RemoStarsSC/status/1676305139915714581" target="_blank"><i class="bi bi-twitter social"></i></a>
+                <a href="https://www.youtube.com/user/RemoStars1" target="_blank"><i class="bi bi-youtube social"></i></a>
+            </p>
+            </div>
+
+          </div>
+        </div>
+      </nav>
+      
+
+    <div style="background-color: rgb(4, 4, 50);background-size: contain;height: 700px;">
+        <h1 style="text-align: center;color:rgb(58, 5, 5);font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">SIMPLE CALCULATOR</h1>
+    
+              <div class="col" style="background-color:rgb(79, 79, 169);text-align:center;margin: 30px;box-shadow: 5px 5px 10px rgb(36, 35, 35);height: 200px;">
+                <label  for=""> <b>Number A</b></label><br>
+                <input type="number" id="nA" >
+                <br><br>
+                <label for=""><b>Number B</b></label><br>
+                <input type="number" id="nB"> <br>
+            
+               <button  type="submit" onclick="add()" 
+               style="background-color: whitesmoke; color: black;padding: 20p;background-color: bisque;"><i class="bi bi-plus-lg"></i></button>
+               <button  type="submit" onclick="minus()" 
+               style="background-color: whitesmoke; color: black;padding: 20p;background-color: blueviolet;"><i class="bi bi-dash-lg"></i></button>
+               <button  type="submit" onclick="multiply()" 
+               style="background-color: whitesmoke; color: black;padding: 20p;background-color: coral;">X</button>
+               <button  type="submit" onclick="divide()" 
+               style="background-color: whitesmoke; color: black;padding: 20p;background-color: gold;"><i class="bi bi-slash-lg"></i></button>
+              
+               <button type="button;" style="background-color: yellowgreen;"><a href="file:///C:/Users/Seun/Desktop/WEBCODE/html%20class/Main%20Project/simplecal.html" style="text-decoration: none;color: black;background-color: yellowgreen;">CLEAR</a></button>
+    
+               <div>
+                <h4 id="show"></h4>
+               
+            </div>
+              </div>
+            </div>
+    </div> 
+    <footer class="footer bg-dark">
+      <div class="container text-center">
+        <div class="row row-cols-3">
+          <div class="col-3" style="text-align: justify;margin: 50px;" ><h5>CALL US </h5>
+            <h5 class="h4red" >+2348054324036</h5>
+            <h5 class="h4red" >info@remostars.com</h5>
+            <h5 class="h4red" >info.remostarsfc@gmail.com</h5>
+          </div>
+          <div class="col-3" style="margin: 50px;"><img src="mainproject-images/titsolution.jpg" alt="" width="60px"></div>
+        
+
+        </div> <hr> 
+        <p class="ptega2" ><i class="bi bi-c-square-fill"></i>TITSolutions 2024</p>
+        <p class="ptega1">
+          <a href="https://web.facebook.com/RemoStarsSC/?_rdc=1&_rdr" target="_blank"><i class="bi bi-facebook social"></i></a>
+          <a href="https://twitter.com/RemoStarsSC/status/1676305139915714581" target="_blank"><i class="bi bi-twitter social"></i></a>
+          <a href="https://www.youtube.com/user/RemoStars1" target="_blank"><i class="bi bi-youtube social"></i></a>
+      </p>
+        </div>
+    </footer>
+       
+      <script src="javass.js">
+        
+    
+    
+    
+    
+      </script>  
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    </body>
+</html>
